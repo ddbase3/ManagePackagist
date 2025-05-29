@@ -10,10 +10,8 @@ class ManagePackagistPlugin extends AbstractPlugin {
 	// Implementation of IPlugin
 
 	public function init() {
-
 		$this->container
-			->set($this->getName(), $this, IContainer::SHARED)
-			;
+			->set(self::getName(), $this, IContainer::SHARED);
 	}
 
 	// Implementation of ICheck
@@ -23,5 +21,4 @@ class ManagePackagistPlugin extends AbstractPlugin {
 			"Check" => "Ok"
 		);
 	}
-
 }
