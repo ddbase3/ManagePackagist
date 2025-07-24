@@ -11,6 +11,12 @@
 		"order": 90,
 		"enabled": 1,
 		"content": "packagistcontentcontrol"
+	}, {
+		"tab": "packagistschema",
+		"name": "Schema",
+		"order": 100,
+		"enabled": 1,
+		"content": "packagistschemacontentcontrol"
 	}],
 	"subnavi": [],
         "toolbar": []
