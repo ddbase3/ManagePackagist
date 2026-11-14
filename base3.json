@@ -1,0 +1,13 @@
+{
+	"manifestVersion": 1,
+	"name": "ManagePackagist",
+	"namespace": "Base3\\ManagePackagist",
+	"version": "0.0.0",
+	"description": "ManagePackagist exposes PHP package administration. It integrates Packagist operations with Base3Manager. It reuses the existing data and repository services.",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"Base3Manager": ">=0.0.0",
+		"CoreFoundation": ">=4.10.0",
+		"DataHawk": ">=4.7.0"
+	}
+}

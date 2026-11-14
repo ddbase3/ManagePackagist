@@ -1,8 +1,23 @@
 <?php declare(strict_types=1);
 
-namespace ManagePackagist\ContentControl;
+/***********************************************************************
+ * This file is part of ManagePackagist for BASE3 Framework.
+ *
+ * ManagePackagist exposes PHP package administration.
+ * It integrates Packagist operations with Base3Manager.
+ * It reuses the existing data and repository services.
+ *
+ * Developed by Daniel Dahme
+ * Licensed under GPL-3.0
+ * https://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * https://base3.de
+ ***********************************************************************/
 
-use Base3Manager\ContentControl\AbstractContentControl;
+
+namespace Base3\ManagePackagist\ContentControl;
+
+use Base3\Base3Manager\ContentControl\AbstractContentControl;
 
 class PackagistContentControl extends AbstractContentControl {
 
