@@ -2,12 +2,20 @@
 	"manifestVersion": 1,
 	"name": "ManagePackagist",
 	"namespace": "Base3\\ManagePackagist",
-	"version": "0.0.0",
+	"version": "5.0.0",
 	"description": "ManagePackagist exposes PHP package administration. It integrates Packagist operations with Base3Manager. It reuses the existing data and repository services.",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-or-later",
+	"maintainers": [
+		{
+			"name": "Daniel Dahme",
+			"url": "https://www.base3.de",
+			"email": "info@base3.de"
+		}
+	],
+	"repository": "https://github.com/ddbase3/ManagePackagist",
 	"dependencies": {
-		"Base3Manager": ">=0.0.0",
-		"CoreFoundation": ">=4.10.0",
-		"DataHawk": ">=4.7.0"
+		"Base3Manager": ">=5.0.0",
+		"CoreFoundation": ">=5.0.0",
+		"DataHawk": ">=5.0.0"
 	}
 }
